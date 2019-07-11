@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1555258865">
+  <File Type="VDS-TIMING-PB" Name="pl_sys_top_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="pl_sys_top_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="pl_sys_top.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="pl_sys_top_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="pl_sys_top_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="pl_sys_top_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="pl_sys_top.vds"/>
+  <File Type="REPORTS-TCL" Name="pl_sys_top_reports.tcl"/>
+  <File Type="PA-TCL" Name="pl_sys_top.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/ip/ch_unit_v993/src/ch_unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ip/ch_unit_v993/src/ch_unit.v"/>
+        <Attr Name="ImportTime" Val="1555027344"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ip/clk_enable_signa_ip/src/clk_en_signal.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ip/clk_enable_signa_ip/src/clk_en_signal.v"/>
+        <Attr Name="ImportTime" Val="1553208901"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/four_ch.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../gpio_to_ch/gpio_to_ch/gpio_to_ch.srcs/sources_1/new/four_ch.v"/>
+        <Attr Name="ImportTime" Val="1555027215"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/four_gpio_ch.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../gpio_to_ch/gpio_to_ch/gpio_to_ch.srcs/sources_1/new/four_gpio_ch.v"/>
+        <Attr Name="ImportTime" Val="1555026091"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/gpio_to_ch.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../gpio_to_ch/gpio_to_ch/gpio_to_ch.srcs/sources_1/new/gpio_to_ch.v"/>
+        <Attr Name="ImportTime" Val="1555014081"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ip/clk_enable_signa_ip/src/pos_oneshot.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ip/clk_enable_signa_ip/src/pos_oneshot.v"/>
+        <Attr Name="ImportTime" Val="1553208901"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ip/ch_unit_v993/src/ram.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ip/ch_unit_v993/src/ram.v"/>
+        <Attr Name="ImportTime" Val="1553284479"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ip/ch_unit_v993/src/ram_ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ip/ch_unit_v993/src/ram_ctrl.v"/>
+        <Attr Name="ImportTime" Val="1553284479"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pl_sys_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../gpio_to_ch/gpio_to_ch/gpio_to_ch.srcs/sources_1/new/pl_sys_top.v"/>
+        <Attr Name="ImportTime" Val="1555026909"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="pl_sys_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

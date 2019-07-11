@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Apr 14 12:21:06 2019
+# Process ID: 5159
+# Current directory: /home/adam/repos/sig-gen-name-tbd/vivado/PL_PROJ_MASTER/PL_PROJ/PL_PROJ.runs/synth_1
+# Command line: vivado -log pl_sys_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pl_sys_top.tcl
+# Log file: /home/adam/repos/sig-gen-name-tbd/vivado/PL_PROJ_MASTER/PL_PROJ/PL_PROJ.runs/synth_1/pl_sys_top.vds
+# Journal file: /home/adam/repos/sig-gen-name-tbd/vivado/PL_PROJ_MASTER/PL_PROJ/PL_PROJ.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source pl_sys_top.tcl -notrace

@@ -1,0 +1,5 @@
+.metadata/
+RemoteSystemsTempFiles/
+SDK.log
+**/*.o
+**/libxil.a

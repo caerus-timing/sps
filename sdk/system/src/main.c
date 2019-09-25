@@ -392,7 +392,7 @@ int main(void) {
 	u8 buffer_index = 0;
 	while (1) {
 		a = XUartPs_RecvByte(STDIN_BASEADDRESS);
-		if (a == '\n') {
+		if (a == '\n' || a == '\r') {
 			CmdLineProcess(input_buffer);
 			xil_printf("OK\n");
 
